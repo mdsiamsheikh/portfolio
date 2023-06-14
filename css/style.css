@@ -212,7 +212,7 @@ a {
       rgba(255, 222, 125, 0.3),
       rgba(246, 65, 108, 0.3)
     ),
-    url("../img/cyberpunk.gif");
+    url("../img/cyberpunk\ feels.gif");
   background-size: cover;
   background-position: top;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 92vh, 0 100%);
