@@ -555,7 +555,7 @@ a {
 }
 
 .skills {
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
   text-align: center !important;
   font-size: 3.5rem;
   text-transform: uppercase;
@@ -583,6 +583,7 @@ a {
   transform: skewY(3.6deg);
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .grid-item {
