@@ -15,4 +15,4 @@ I used the newest CSS feature on this site. Here are some of them:
     5. Responsiveness & good look in every device
 
 
-This site is live here https://nasimuddin.netlify.com/
+
