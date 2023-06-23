@@ -1,16 +1,18 @@
+
 # portfolio
+This is my portfolio completely made with html & css.
+No framework & library is used here.
+I used the newest CSS feature on this site. Here are some of them:
 
-This is my portfolio completely made with html & css. No framework & library used here. I used newest css feature in this site. Here is some of them:
+    1. CSS Grid
 
-1.CSS Grid
+    2. CSS Flexbox
 
-2.CSS Flexbox
+    3. CSS Transition
 
-3.CSS Transition
+    4. 3D Animation
 
-4.3D Animation
-
-5.Responsiveness & good look in every device
+    5. Responsiveness & good look in every device
 
 
-##### Here's Working demo
+This site is live here https://nasimuddin.netlify.com/
