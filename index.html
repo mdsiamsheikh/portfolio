@@ -34,7 +34,7 @@
     </nav>
     <div class="header__text-box">
       <h1 class="heading-primary">
-        <span class="heading-primary--main">Siam Sheikh</span>
+        <span class="heading-primary--main"></span>
         <span class="heading-primary--sub">Front-End Developer</span>
       </h1>
       <a href="#projects" class="btn btn--white">See Projects</a>
@@ -217,7 +217,7 @@
           </div>
           <div class="item-text">
             <div class="item-text-wrap">
-              <p class="item-text-category">HTML & CSS</p>
+              <p class="item-text-category">HTML & CSS, JavaScript</p>
               <h2 class="item-text-title">Portfolio Website</h2>
               <a class="btn-link" href="https://github.com/mdsiamsheikh/portfolio" target="_blank"><i class="fab fa-github"></i> Github</a>
             </div>
@@ -354,5 +354,15 @@
         <a class="back-to-top" href="#landing">Back to Top</a>
       </div>
     </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typingEffect = new Typed(".heading-primary--main", {
+        strings : ["siam", "sheikh"],
+        loop : true,
+        typeSpeed : 100,
+        backSpeed : 80,
+        backDelay : 1500
+      })
+    </script>
 </body>
 </html>
