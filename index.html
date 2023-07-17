@@ -14,6 +14,14 @@
 </head>
 
 <body>
+
+  <!-- Loader -->
+  <div id="loader-container">
+    <div id="loader"></div>
+  </div>
+  <!-- Loader End  -->
+
+
   <!-- heading section -->
   <header class="header" id="landing">
     <nav class="nav">
@@ -363,6 +371,19 @@
         backSpeed : 80,
         backDelay : 1500
       })
+    </script>
+
+    <script>
+        window.addEventListener("load", function() {
+      const loaderContainer = document.getElementById("loader-container");
+      const portfolio = document.getElementById("portfolio");
+      
+      // Simulate a delay for loading the portfolio content
+      setTimeout(function() {
+        loaderContainer.style.display = "none";
+        portfolio.style.display = "block";
+      }, 2000); // Change the delay value (in milliseconds) to suit your needs
+    });
     </script>
 </body>
 </html>
