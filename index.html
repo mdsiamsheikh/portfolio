@@ -373,8 +373,9 @@
       var content = document.querySelector(".content");
       var content2 = document.querySelector(".content2");
       document.addEventListener("mousemove", function(e) {
-                      content.style.cssText = content2.style.cssText = "left:" + e.clientX + "px; top:"
-            + e.clientY + "px;";})
+                      content.style.cssText = content2.style.cssText = "left:" + (e.clientX) + "px; top:"+ (e.clientY ) + "px;";
+         
+      })
     </script>
 
 
