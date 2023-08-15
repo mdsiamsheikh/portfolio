@@ -183,6 +183,38 @@ body {
 }
 /* Loader End   */
 
+/* Animation on MouseMove  */
+.content h2 h3 a {
+  width: 700px;
+  line-height: 26px;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.content {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #c6c6c6;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+}
+
+.content2 {
+  position: fixed;
+  width: 8px;
+  height: 8px;
+  border: 1px solid #c6c6c6;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+}
+
 /* ending unversal styles */
 /* starting landing page styles */
 /* starting navbar styles */

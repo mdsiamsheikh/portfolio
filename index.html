@@ -21,6 +21,11 @@
   </div>
   <!-- Loader End  -->
 
+    <!-- Animation on MouseMove -->
+    <div class="content"></div>
+    <div class="content2"></div>
+
+  <!-- Animation on MouseMove END -->
 
   <!-- heading section -->
   <header class="header" id="landing">
@@ -363,6 +368,16 @@
       </div>
     </footer>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+      var content = document.querySelector(".content");
+      var content2 = document.querySelector(".content2");
+      document.addEventListener("mousemove", function(e) {
+                      content.style.cssText = content2.style.cssText = "left:" + e.clientX + "px; top:"
+            + e.clientY + "px;";})
+    </script>
+
+
     <script>
       var typingEffect = new Typed(".heading-primary--main", {
         strings : ["siam", "sheikh"],
