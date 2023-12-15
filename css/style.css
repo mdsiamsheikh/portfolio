@@ -269,6 +269,7 @@ a {
 /* startiing landing page section */
 .header {
   height: 100vh;
+  background: #0a0b18;
   background-image: linear-gradient(
       to right bottom,
       rgba(255, 222, 125, 0.3),
@@ -287,6 +288,10 @@ a {
     clip-path: polygon(0 0, 100% 0, 100% 95vh, 0 100%);
   }
 }
+
+/* img {
+  width: 400px;
+} */
 
 .header__text-box {
   text-align: center;
@@ -324,7 +329,7 @@ a {
   font-weight: 400;
   letter-spacing: 0.3rem;
   animation: rightIn 0.75s ease-out;
-  /* backface-visibility: hidden; */
+  backface-visibility: hidden;
 }
 
 @media (max-width: 37.5em) {
