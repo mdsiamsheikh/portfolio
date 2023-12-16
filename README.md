@@ -3,7 +3,7 @@
 This is my portfolio completely made with html & css.
 No framework & library is used here.
 
-Live version of this site: https://mdsiamsheikh-portfolio.netlify.app
+Live version of this site: https://mdsiamsheikh.netlify.app
 
 I used the newest CSS feature on this site. Here are some of them:
 
