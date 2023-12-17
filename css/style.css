@@ -41,7 +41,7 @@ body {
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.7;
-  color: gray;
+  /* color: gray; */
   box-sizing: border-box;
   padding: 0;
   background-color: #0a0b18;
@@ -211,7 +211,7 @@ body {
   position: fixed;
   width: 8px;
   height: 8px;
-  border: 5px solid #514e4e;
+  border: 5px solid #e4dddd;
   border-radius: 50%;
   left: 0;
   top: 0;
@@ -265,8 +265,8 @@ a {
   color: rgba(246, 65, 108, 1);
   font-size: 2.3rem;
 }
-
 /* ending navbar styles */
+
 /* startiing landing page section */
 .header {
   height: 100vh;
@@ -414,6 +414,7 @@ img {
 
 .paragraph {
   font-size: 1.6rem;
+  color: #fff;
 }
 
 .paragraph:not(:last-child) {
@@ -434,9 +435,10 @@ img {
 
 .u-margin-bottom-small {
   margin-bottom: 1.5rem;
+  color: #fff;
 }
-
 /* endinfg universal styles */
+
 /* starting about section  */
 .section-about {
   background-color: #0a0b18;
@@ -606,12 +608,13 @@ img {
 .cube > div {
   transition: transform 0.2s ease-in;
 }
-
 /* ending about section */
-/* starting skill section */
+
+/* TECHNOLOGIES section  */
+
 .section-features {
   height: auto;
-  padding: 10vh 0 10vh 0;
+  /* padding: 10vh 0 10vh 0; */
   background-color: #0a0b18;
   /* background-image: linear-gradient(
       to right bottom,
@@ -619,8 +622,8 @@ img {
       rgba(255, 222, 125, 0.7)
     ),
     url(../img/cyberpunk.jpg); */
-  background-size: cover;
-  transform: skewY(-3.6deg);
+  /* background-size: cover; */
+  /* transform: skewY(-3.6deg); */
   align-items: center;
 }
 
@@ -636,12 +639,12 @@ img {
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 2px;
-  transition: all 0.2s;
-  transform: skewY(3.6deg);
+  /* transition: all 0.2s; */
+  /* transform: skewY(3.6deg); */
 }
 
 .skills:hover {
-  transform: skewX(2deg) skewY(5deg);
+  transform: skewX(2deg) skewY(2.5deg);
   text-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.4);
 }
 
@@ -650,7 +653,7 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 5vw;
-  transform: skewY(3.6deg);
+  /* transform: skewY(3.6deg); */
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -680,7 +683,6 @@ img {
     width: 70vw;
   }
 }
-
 /* end of skill section */
 
 /* start of project section */
