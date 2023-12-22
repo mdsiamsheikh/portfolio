@@ -16,9 +16,7 @@
 <body>
 
   <!-- Loader -->
-  <div id="loader-container">
-    <div id="loader"></div>
-  </div>
+  <div id="loader-container"> </div>
   <!-- Loader End  -->
 
     <!-- Animation on MouseMove -->
@@ -397,16 +395,14 @@
     </script>
 
     <script>
-        window.addEventListener("load", function() {
-      const loaderContainer = document.getElementById("loader-container");
-      const portfolio = document.getElementById("portfolio");
-      
-      // Simulate a delay for loading the portfolio content
-      setTimeout(function() {
-        loaderContainer.style.display = "none";
-        portfolio.style.display = "block";
-      }, 2000); 
-    });
+   var loader = document.getElementById("loader-container");
+
+   window.addEventListener("load", function() {
+    loader.style.display = "none";
+    portfolio.style.display = "block";
+   }, 3000)
+
+    
     </script>
 </body>
 </html>
