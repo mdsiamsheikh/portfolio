@@ -2,8 +2,7 @@
 
 
 # portfolio
-This is my portfolio completely made with html & css.
-No framework & library is used here.
+
 
 Live version of this site: https://mdsiamsheikh.netlify.app
 
