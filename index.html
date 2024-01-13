@@ -13,10 +13,10 @@
   <title>Front-End Developer</title>
 </head>
 
-<body>
+<body onload="myFunction()" style="margin: 0">
 
   <!-- Loader -->
-  <div id="loader-container"> </div>
+  <div id="loader"></div>
   <!-- Loader End  -->
 
     <!-- Animation on MouseMove -->
@@ -24,7 +24,7 @@
     <div class="content2"></div>
 
   <!-- Animation on MouseMove END -->
-
+  <div style="display: none" id="myDiv" class="animate-bottom">
   <!-- heading section -->
   <header class="header" id="landing">
     <nav class="nav">
@@ -372,6 +372,8 @@
         <a class="back-to-top" href="#landing">Back to Top</a>
       </div>
     </footer>
+  </div>
+
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
     <script>
@@ -395,12 +397,16 @@
     </script>
 
     <script>
-   var loader = document.getElementById("loader-container");
+   var myVar;
 
-   window.addEventListener("load", function() {
-    loader.style.display = "none";
-    portfolio.style.display = "block";
-   }, 3000)
+    function myFunction() {
+      myVar = setTimeout(showPage, 1000);
+    }
+
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
 
     
     </script>
