@@ -336,20 +336,30 @@
         <img class="coding-image" src="img/contact.svg" alt="A guy is coding">
         <div class="form">
           <div>
-            <h2>Let's talk</h2>
-            <p>Please don't hesitate to contact.</p>
-            <form name="contact" method="POST" data-netlify="true">
+           
+            <p>Want to know more about me, collaborate on a project, or just have a question? Don't hesitate to drop me a message—I enjoy hearing from you!</p>
+            <form role="form" action="#">
               <p>
-                <input placeholder="Your name" type="text" name="name" tabindex="0" required>
+                <input   name="name"
+                type="text"
+                id="name"
+                placeholder="Your Name">
               </p>
               <p>
-                <input placeholder="Your Email Address" type="email" name="email" tabindex="-1" required>
+                <input name="email"
+                type="email"
+                id="email"
+                placeholder="Your Email">
               </p>
               <p>
-                <textarea placeholder="Type your Message Here...." tabindex="-2" name="message" required></textarea>
+                <textarea name="message"
+                rows="7"
+                id="message"
+                placeholder="Your Message"></textarea>
               </p>
               <p>
-                <button name="submit" type="submit" data-submit="...Sending">Submit</button>
+                <button name="send" type="submit" value="Submit" id="send">Submit</button>
+                    
               </p>
             </form>
           </div>
