@@ -59,7 +59,7 @@
             <span class="heading-primary-sub" style="color: #f6416c;">Front-End Developer</span>
           </h1>
           <div class="resume-container">
-            <a href="#projects" class="btn">See Projects</a>
+            <a href="" id="downloadResume" class="btn">Download Resume</a>
           </div>
         </div>
         <img src="/img/file.png" alt="Profile Image" class="profile-image" />
@@ -393,40 +393,6 @@
   </div>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-
-    <script>
-      var content = document.querySelector(".content");
-      var content2 = document.querySelector(".content2");
-      document.addEventListener("mousemove", function(e) {
-                      content.style.cssText = content2.style.cssText = "left:" + (e.clientX) + "px; top:"+ (e.clientY ) + "px;";
-         
-      })
-    </script>
-
-
-    <script>
-      var typingEffect = new Typed(".heading-primary-main", {
-        strings : ["siam", "sheikh"],
-        loop : true,
-        typeSpeed : 100,
-        backSpeed : 80,
-        backDelay : 1500
-      })
-    </script>
-
-    <script>
-   var myVar;
-
-    function myFunction() {
-      myVar = setTimeout(showPage, 1000);
-    }
-
-    function showPage() {
-      document.getElementById("loader").style.display = "none";
-      document.getElementById("myDiv").style.display = "block";
-    }
-
-    
-    </script>
+    <script src="./js/index.js"></script>
 </body>
 </html>
