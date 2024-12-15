@@ -1,7 +1,7 @@
 
 # portfolio
 
-Siam Sheikh is a well-versed front-end developer with 2 years of learning experience and 6 months of work experience in HTML, CSS, Javascript, Vue, Nodejs & Git. He has worked many projects from front-end to Back-end using latest technology best practice.
+I am a skilled front-end developer with 1.7 years of professional experience, primarily focused on building high-quality user interfaces. While my expertise lies in frontend development, I am a fast learner and keen to dive into backend technologies. My adaptability and problem-solving abilities will help me quickly become proficient in full-stack development.
 
 Live version of this site: https://mdsiamsheikh.netlify.app
 
