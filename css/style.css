@@ -529,6 +529,14 @@ a {
   .tech-cube {
     margin-top: 10vh;
   }
+  .about-grid {
+    padding: 0 8vw 0 12vw;
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-row-gap: 0vw;
+    justify-content: space-evenly;
+  }
 }
 
 .cube {
